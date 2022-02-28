@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Punpunia</title>
+    <script src="https://kit.fontawesome.com/6a899ed496.js" crossorigin="anonymous"></script>
+    <meta name="description" content="Merhabalar, bu sitede sizlere amatör bir şekilde gerek kısa, gerek ise uzunca yazdığım hikaye ve öyküleri paylaşacağım. İçimdeki hisleri tutamamam sayesinde başlayan yazma isteğim bir hobiye dönüştü. Kendimi her ne kadar yeteneksiz bulsam da gelişmek amacıyla attığım bir adım olacak burası. Umarım keyifli bir şekilde okuyabilirsiniz.">
+</head>
+<body>
+    <div class="navigationBar">
+        <div class="navigationBarFlex">
+            <div class="navigationBarHome">Home</div>
+            <div class="navigationBarList">
+            <a href="">Asdas</a>
+            <a href="">Asdas</a>
+            </div>
+        </div>
+    </div>
+    <div class="mainLayout">
+        <div class="top">
+            <div class="sideBar">
+            </div>
+            <div class="logo">Punpunia</div>
+            <div></div>
+        </div>
+        <div class="center">
+            <div class="image">
+                <img src="https://cdn.discordapp.com/attachments/860082006124527616/947886875706798120/IMG_20220228_155024.jpg" alt="">
+            </div>
+        </div>
+        <div class="buttom">
+            <div class="about">
+                <div id="about"><p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione ad iure porro tenetur laboriosam. Porro repudiandae consectetur, mollitia numquam id consequuntur maiores quam adipisci perferendis neque voluptas quia quis voluptatibus cum tenetur deserunt rerum nobis sequi! Consequatur asperiores omnis ipsa consequuntur obcaecati doloremque id, perferendis nam veritatis mollitia delectus, ad, vero ipsum! Exercitationem ut minus dignissimos error repudiandae ex saepe. Totam harum magnam soluta autem esse neque, consequatur laborum, dolore minima placeat perspiciatis quasi tempore deserunt! Aspernatur dolore ea cupiditate. Quia, saepe sunt reiciendis beatae placeat provident ab. Magnam quasi dicta et. Culpa mollitia natus assumenda? Dignissimos suscipit beatae facilis quod iusto veniam aspernatur nobis eveniet temporibus? Nulla labore eligendi iusto aliquam esse consequuntur distinctio reprehenderit optio blanditiis quod deleniti, illum accusantium sequi quia velit est, perferendis cum id magni laudantium mollitia aperiam? Aliquam quae, aperiam rerum tempora veniam quia eos beatae dolorum quidem suscipit illum deserunt cum aliquid magnam saepe ut! Maiores architecto exercitationem quam quod sed adipisci distinctio mollitia dignissimos porro voluptatum amet quibusdam rem id dolorum fuga vel libero illo, magnam repellendus? Velit excepturi quibusdam tempore officia veniam vel, voluptatibus cupiditate aliquam temporibus rem magnam id maxime porro culpa minus sequi earum dolorum deserunt corporis, iusto commodi ex vitae! Nemo cum, labore assumenda sunt animi beatae similique reprehenderit modi rerum deleniti. Provident consequatur enim expedita id repudiandae debitis quam. Sequi, non? Ipsam porro tenetur fuga temporibus libero commodi, aliquam obcaecati accusamus quae voluptas quod non numquam soluta ea tempore modi harum dicta vero expedita explicabo autem enim!</p></div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+<style>
+    *{
+        margin:auto 0;
+        font-family:Georgia;
+        overflow-x:hidden;
+    }
+    body{
+        background-color: black;
+    }
+    .mainLayout{
+        display:flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .mainLayout > *{
+        font-size: 30px;
+    }
+    .center{
+        display: flex;
+        width: 100%;
+        height: fit-content;
+    }
+    .buttom{
+        width: auto;
+        height: fit-content;
+        padding-top:25px;
+        padding-bottom: 25px;
+    }
+    .top{
+        align-content:center;
+        justify-content: space-between;
+        width: auto;
+        height: 90px;        
+        display: flex;
+        background-color: black;
+        color:white;
+    }
+    .center{
+        background-color: black;
+        align-content:center;
+        justify-content: center;
+    }
+    .buttom{
+        background-color: black;
+        color:white;
+    }
+    .image{
+        width: auto;
+        height: fit-content;
+        /*border-style: solid;*/
+        display: flex;
+        justify-content: center;
+    }
+    .about{
+        display:flex;
+        justify-content: center;
+    }
+    #about{
+        font-size: 21px !important;
+        width: 1000px;
+        text-align: center;
+    }
+    .navigationBar{
+        transition: all 2s ease;
+        position:fixed;
+        width: 250px;
+        height: 100%;
+        background-color: black;
+        color:white;
+        font-size: 24px;
+        transform: translateX(-245px);
+    }
+    .navigationBarFlex{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin:70px;
+        margin-top: 80px;
+    }
+    .navigationBarList{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-top: 50px;
+    }
+    .navigationBarList > a {
+        text-decoration: none;
+        color:white;
+    }
+    .navigationBar:hover, .navigationBar:active{
+        transform: translateX(0px);
+    }
+</style>
